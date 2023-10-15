@@ -4,7 +4,7 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  { import = "astrocommunity.colorscheme.catppuccin",       enable = true },
+  { import = "astrocommunity.colorscheme.catppuccin", enable = true },
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
@@ -22,6 +22,7 @@ return {
       },
     },
   },
+  -- lsp
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.dart" },
@@ -38,7 +39,15 @@ return {
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.yaml" },
 
+  -- fuzzy finder
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
 
+  -- scrolling
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
+
+  -- terminal integration
+  { import = "astrocommunity.terminal-integration.vim-tpipeline" },
+
+  -- workflow
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
