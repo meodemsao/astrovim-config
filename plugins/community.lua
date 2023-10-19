@@ -39,6 +39,9 @@ return {
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.yaml" },
 
+  -- complation
+  { import = "astrocommunity.completion.codeium-vim" },
+
   -- fuzzy finder
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
 
@@ -47,6 +50,10 @@ return {
 
   -- terminal integration
   { import = "astrocommunity.terminal-integration.vim-tpipeline" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+
+  -- utility
+  { import = "astrocommunity.utility.noice-nvim" },
 
   -- workflow
   { import = "astrocommunity.workflow.hardtime-nvim" },
