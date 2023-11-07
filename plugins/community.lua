@@ -23,11 +23,11 @@ return {
     },
   },
   -- lsp
-  { import = "astrocommunity.pack.ansible" },
+  -- { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.helm" },
+  -- { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
@@ -43,10 +43,10 @@ return {
   { import = "astrocommunity.completion.codeium-vim" },
 
   -- fuzzy finder
-  { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
+  -- { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
 
   -- scrolling
-  { import = "astrocommunity.scrolling.neoscroll-nvim" },
+  -- { import = "astrocommunity.scrolling.neoscroll-nvim" },
 
   -- terminal integration
   { import = "astrocommunity.terminal-integration.vim-tpipeline" },
